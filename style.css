@@ -1,0 +1,97 @@
+#logoSearchBar {
+    display: flex;
+    margin-top: 24px;
+}
+#googleLogo {
+    width: 92px;
+    height: 30px;
+    margin-left: 19px;
+    margin-top: 6px;
+}
+#googleSearch {
+    margin-left: 32px;
+    background-image: url("pictures/search.png");
+    background-repeat: no-repeat;
+    background-position: 620px 9px;
+    background-color: #fff;
+    border: 1px solid rgb(223, 225, 229);
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 40px;
+    width: 638px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+#navBar {
+    position: relative;
+    margin-left: 155px;
+    margin-top: 14px;
+}
+
+#All, #News, #Maps, #Videos, #Shopping, #More, #Settings, #Tools {
+    display: inline-block;
+    color: #5f6368;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#Settings {
+    margin-left: 120px;
+}
+hr {
+    color: #222;
+    opacity: 0.1;
+}
+#searchResults {
+    margin-left: 165px;
+}
+#searchNumber {
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+#wrapper {
+    margin-top: 25px;
+    margin-left: 165px;
+    width: 632px;
+    height: 141px;
+    font-size: 14px;
+}
+
+#websitelink {
+    font-size: 20px !important;
+    line-height: 26px;
+    margin-bottom: 3px;
+    color: blue;
+}
+#maincontent {
+    color: #3C4043;
+    line-height: 22px;
+}
+#contentfooter {
+    color: blue;
+    margin-bottom: 25px;
+}
+
+#footerBar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: #f2f2f2;
+    line-height: 40px;
+}
+#location {
+    color: #5f6368;
+    font-size: 14px;
+    margin-left: 165px;
+}
+#Help, #SendFeedback, #Privacy, #Terms {
+    display: inline-block;
+    color: #5f6368;
+    font-size: 14px;
+    margin-right: 20px;
+}
+#Help {
+    margin-left: 165px;
+}
